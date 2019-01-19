@@ -1,0 +1,100 @@
+document.createElement('li');
+
+every element is a class
+it is called as web components
+
+create element
+create text node
+putting inside element
+
+basically hum dom tree mein ek class create jo ho chukki hai uske objects bana rahe hai
+========================================================================================
+btn.onclick= function (){
+    let val=inp.value;
+    let li=document.createElement('li');   
+    let text= document.createTextNode(val);
+    li.appendChild(text);
+    result.appendChild(li);      
+}
+========================================================================================
+everything is defaultly binded to window
+
+
+    console.log(this); //this makes the variables of any function as global
+========================================================================================
+explicit ki waja se hum this ko control kar rahe hai 
+
+========================================================================================
+THIS
+
+
+key value pair
+key di fir value mein kuch bhi rakh sakte hai function string array int etc
+naman: function(){
+
+console.log("hello");
+}
+
+
+obj1 jo hai wo replace ho jayega this se if we use getfruit.call
+call lagane se pehla parameter obj jo hai wo 'this ' se replace karlega	
+
+agar hum  call ki jaga apply kar dete hai to pehla word to this se replace ho jayega lekin aage wwale keys ko ek array mein likhna hoga
+
+
+constructive binding : object oriented
+ek function kko uske object se koi hata nhi sakta
+( just like 005 and 006 )
+
+every function is a class
+every funtion comes out as ann object
+
+
+agar pehle letter ko capital bhi kardu to wo actually ek functin hi hai it is not a seperate class
+
+'new term jo hai wo 3 kaam karta hai automatically:-
+
+creating a blank object
+passing the value and the parameters and assigning them as this
+returns this
+
+(this acts as an object)
+========================================================================================
+
+
+========================================================================================
+prototyping-function ka prototype is object of the function
+
+function g=hello(){
+
+
+}
+		prototype
+	function---------->object
+		<-----------
+		  class
+
+function.prototype.constructor= function
+
+agar mein functioin ke proototype pr ek function define karta hu
+
+hello ke prototype ki key hai
+this jo hai sabhi keys ka wo prototype ko hi refer kar rha hoga yani ki function ka main object
+
+
+ex:
+	
+	game.prototype.player= function(player){
+	
+}
+
+========================================================================================
+callbacks
+
+========================================================================================
+jquery
+
+========================================================================================
+
+
+========================================================================================
